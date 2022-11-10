@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+     
+}
+
+.link__container {
+    width: 100%;
+}
+
+.link__container ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.link__container a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    transition-duration: .7s;
+}
+
+.link__container a:hover {
+    cursor: pointer;
+    color: rgb(131, 119, 119);
+}

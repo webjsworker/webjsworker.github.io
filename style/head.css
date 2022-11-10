@@ -1,0 +1,29 @@
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    text-shadow: 1px 1px 2px rgb(237, 230, 202);
+
+   
+}
+.head ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    
+        
+}
+.head li{
+    transition-duration: .7s;
+}
+.head li:hover{
+    cursor: pointer;
+    color: rgb(131, 119, 119);
+}

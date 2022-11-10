@@ -1,3 +1,10 @@
-body{
-    background-color: rgb(188, 226, 213);
-}
+@import url('./style/reset.css');
+@import url('./style/wrapper.css');
+@import url('./style/head.css');
+@import url('./style/main.css');
+@import url('./style/footer.css');
+
+/* @import url("./")  (max-width: 1440px) and (min-width: 769px); */
+
+
+

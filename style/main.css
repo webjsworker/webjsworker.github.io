@@ -1,0 +1,45 @@
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+}
+.main_photo{
+
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 30%;
+    
+    
+    /* background-color: rgb(199, 226, 207); */
+}
+.main_photo img {
+   
+    width: 70%;
+    border-radius: 10%;
+}
+.main_description{
+    width: 70%;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.main_description h1,span {
+    font-weight: 900;
+  margin: 10px 25px;
+} 
+
+ 
+.main_description p , li {
+    margin: 10px 20px;
+    line-height: 150%;
+    text-indent: 2.2em;  
+    text-align: justify;
+}
